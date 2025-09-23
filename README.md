@@ -102,6 +102,28 @@ dotnet new MyAmazingDddTemplate -n ИмяВашегоПроекта
 2. Настройте dependency injection в `Program.cs`
 3. Сконфигурируйте middleware в порядке, необходимом для вашего приложения
 
+## 🐳 Docker
+
+### Быстрый старт с Docker
+
+> ⚠️ Все Docker команды нужно выполнять из корневой директории репозитория, указав путь где находится файл `Dockerfile`
+
+```powershell
+# Сборка образа (замените MyApp на имя вашего приложения)
+docker build -t myapp . -f src\MyAmazingDddTemplate.WebApi\Dockerfile
+
+# Запуск контейнера
+docker run -p 8080:8080 myapp
+
+# Сборка и запуск в режиме отладки
+docker build --build-arg BUILD_CONFIGURATION=Debug -t myapp:debug .
+docker run -p 8080:8080 myapp:debug
+```
+
+### Порты
+- 8080: HTTP
+- 8081: HTTPS (если настроен)
+
 ## 📚 Полезные команды .NET CLI
 
 ```powershell
