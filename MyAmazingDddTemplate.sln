@@ -17,13 +17,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAmazingDddTemplate.Archit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAmazingDddTemplate.WebApi", "src\MyAmazingDddTemplate.WebApi\MyAmazingDddTemplate.WebApi.csproj", "{C879BF5C-DA58-4CD3-9D43-F5200491A8F8}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5F7300F7-C097-4249-BC3A-19393F2095B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{96240AFF-4E2C-42BF-A0DC-56C520B3AB8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -46,6 +45,13 @@ Global
 		{C879BF5C-DA58-4CD3-9D43-F5200491A8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C879BF5C-DA58-4CD3-9D43-F5200491A8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C879BF5C-DA58-4CD3-9D43-F5200491A8F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F7300F7-C097-4249-BC3A-19393F2095B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7300F7-C097-4249-BC3A-19393F2095B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7300F7-C097-4249-BC3A-19393F2095B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7300F7-C097-4249-BC3A-19393F2095B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{96240AFF-4E2C-42BF-A0DC-56C520B3AB8C} = {FD76EB5C-0860-4246-B3B1-7533ACD302EE}

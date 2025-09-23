@@ -6,6 +6,15 @@
     "name": "MyAmazingDddTemplate",
     "shortName": "ddd-webapi",
     "sourceName":"MyAmazingDddTemplate",
+
+    "symbols": {
+      "dockerImageName": {
+          "type": "parameter",
+          "defaultValue": "template_webapi_image",
+          "replaces": "template_webapi_image"
+      },
+    },
+
     "tags": {
       "language": "C#",
       "type": "solution"

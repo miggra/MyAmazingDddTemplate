@@ -1,0 +1,7 @@
+services:
+  template.webapi:
+    image: ${DOCKER_REGISTRY-}template_webapi_image
+    container_name: MyAmazingDddTemplate.Api
+    build:
+      context: .
+      dockerfile: src/MyAmazingDddTemplate.WebApi/Dockerfile
