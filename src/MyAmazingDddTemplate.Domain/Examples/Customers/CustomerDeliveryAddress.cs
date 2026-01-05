@@ -5,6 +5,6 @@ namespace MyAmazingDddTemplate.Domain.Examples.Customers;
 
 public class CustomerDeliveryAddress : Entity<Guid>
 { 
-    public required Name Name { get; set; }
-    public required DeliveryAddress Address { get; set; }
+    public Name Name { get; private set; }
+    public DeliveryAddress Address { get; private set; }
 }

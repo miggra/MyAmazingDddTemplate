@@ -7,7 +7,7 @@ public class Customer : Entity<Guid>
 {
     private readonly List<CustomerDeliveryAddress> _customerDeliveryAddresses = [];
     
-    public required Name Name { get; set; }
-    public required PhoneNumber PhoneNumber { get; set; }
+    public Name Name { get; private set; }
+    public PhoneNumber PhoneNumber { get; private set; }
     public ReadOnlyCollection<CustomerDeliveryAddress> CustomerDeliveryAddresses => _customerDeliveryAddresses.AsReadOnly();
 }
