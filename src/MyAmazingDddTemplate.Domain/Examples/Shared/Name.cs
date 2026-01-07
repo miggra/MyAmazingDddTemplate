@@ -1,4 +1,4 @@
-namespace MyAmazingDddTemplate.Domain.Examples.Customers;
+namespace MyAmazingDddTemplate.Domain.Examples.Shared;
 
 public sealed record Name
 {

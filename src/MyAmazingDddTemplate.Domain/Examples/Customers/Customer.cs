@@ -1,5 +1,6 @@
 using System.Collections.ObjectModel;
 using MyAmazingDddTemplate.Domain.Abstractions;
+using MyAmazingDddTemplate.Domain.Examples.Shared;
 
 namespace MyAmazingDddTemplate.Domain.Examples.Customers;
 
